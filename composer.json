@@ -1,0 +1,35 @@
+{
+    "name": "nhrrob/robinpress",
+    "description": "A markdown-powered blog package for laravel",
+    "require": {
+        "erusev/parsedown": "^1.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nazmul Hasan Robin",
+            "email": "robin.sust08@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nhrrob\\Robinpress\\" : "src/",
+            "Database\\Factories\\" : "database/factories/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nhrrob\\Robinpress\\Tests\\" : "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nhrrob\\Robinpress\\PressBaseServiceProvider"
+            ]
+        }
+    }
+}

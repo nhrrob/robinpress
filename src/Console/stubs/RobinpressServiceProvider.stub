@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Providers;
+
+use Illuminate\Support\ServiceProvider;
+use Nhrrob\Robinpress\Facades\Robinpress;
+
+class RobinpressServiceProvider extends ServiceProvider
+{
+    public function boot()
+    {
+        Robinpress::fields($this->registerFields());
+    }
+
+    public function register()
+    {
+        //
+    }
+
+    public function registerFields()
+    {
+        return [
+            //
+        ];
+    }
+}
