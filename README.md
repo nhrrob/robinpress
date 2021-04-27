@@ -19,7 +19,7 @@ A laravel package that generates markdown-powered blog.
 - Publish vendor: <code>php artisan vendor:publish --tag=robinpress-config</code>
 - Create your first markdown file under App\blogs folder. 
     Ex. App\blogs\sample-post.md
-    <code>
+    ```
     ---
     title: My Title 
     description: Description here
@@ -29,7 +29,7 @@ A laravel package that generates markdown-powered blog.
     # Heading
 
     Blog post body here
-    </code>
+    ```
 
 - run artisan command: <code>php artisan robinpress:process</code> 
 
