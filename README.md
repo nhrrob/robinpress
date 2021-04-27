@@ -33,7 +33,7 @@ A laravel package that generates markdown-powered blog.
 
 - run artisan command: <code>php artisan robinpress:process</code> 
 
-Your mark-down.md is now stored in database as a post.
+Your sample-post.md is now stored in database as a post.
 
 Cheers!
 
